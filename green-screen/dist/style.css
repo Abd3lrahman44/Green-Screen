@@ -1,0 +1,45 @@
+body{
+  background-color: MintCream;
+}
+
+h1{
+  font-family: Arial;
+  color: SeaGreen;
+  margin: 15px;
+  margin-bottom: 5px;
+  border-bottom: 5px solid;
+}
+
+canvas{
+  border: 1px RosyBrown solid;
+  margin: 15px;
+  margin-bottom: 5px;
+}
+
+.controls{
+  margin: 15px;
+  font-size: 18px;
+  color: SteelBlue;
+}
+
+input{
+  font-size: 13px;
+  margin: 5px;
+  margin-left: 15px;
+}
+
+#rights{
+  font-size: 17px;
+  margin: 5px;
+  color: SaddleBrown;
+}
+
+#foreground{
+  margin-left: 15px;
+  color: SteelBlue;
+}
+
+.buttons{
+  background-color: PowderBlue;
+  margin-left: 5px;
+}

@@ -1,0 +1,26 @@
+<script
+src = "https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+<body>
+<h1>
+  Green Screen <div id = "rights">An application by Abdulrahman Zaghloul</div>
+</h1>
+<canvas id = "foreground canvas">
+
+</canvas>
+
+<canvas id = "background canvas">
+  
+</canvas>
+
+<div id = "foreground">
+    Foreground <input type = file accept = image/* multiple = false id = "fg file" onchange = loadForegroundImage()>
+
+    Background<input type = file accept = image/* multiple = false id = "bg file" onchange = loadBackgroundImage()>
+</div>
+<div class = buttons>
+  <input type = button onclick = doGreenScreen() value = "Create Composite" id = "Create Composite button">
+
+<input type = button onclick = clearCanvases() value = "Clear" id = "Clear button">
+  </div>
+</body>
